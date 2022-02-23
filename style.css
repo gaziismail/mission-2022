@@ -4,16 +4,23 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.text-orange {
+    color: orange;
+}
+.display-flex{
     display: flex;
 }
-#left-margin{
+section {
+    margin-bottom: 100px;
+}
+#left-border{
     border-left: 8px solid tomato;
 }
 .half-width{
     width: 50%;
 }
 .half-width img {
+    margin-left: 10%;
     width: 80%;
 }
 .link-button{
@@ -22,4 +29,26 @@ section{
     background-color: tomato;
     padding: 10px 40px;
     border-radius: 5px;
+}
+.text-center {
+    text-align: center;
+}
+.mission-card {
+    width: 30%;
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    padding: 40px;
+    border-radius: 30px;
+}
+#gray-background {
+    background-color: rgba(211, 211, 211, 0.349);
+}
+#salmon-background {
+    background-color: rgba(255, 160, 122, 0.411);
+}
+#yellow-background {
+    background-color: rgba(218, 165, 32, 0.281);
+}
+.mission-card img{
+    width: 60%;
 }
