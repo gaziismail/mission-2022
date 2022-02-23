@@ -1,5 +1,8 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
+    
+
 }
 h1{
     font-size: 50px;
@@ -23,9 +26,11 @@ section {
     margin-left: 10%;
     width: 80%;
 }
+.text-white {
+    color: white;
+}
 .link-button{
     text-decoration: none;
-    color: white;
     background-color: tomato;
     padding: 10px 40px;
     border-radius: 5px;
@@ -51,4 +56,12 @@ section {
 }
 .mission-card img{
     width: 60%;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+#footer-style {
+    background-color: black;
+    padding: 50px;
 }
